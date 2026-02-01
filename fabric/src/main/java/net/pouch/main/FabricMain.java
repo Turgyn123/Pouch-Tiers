@@ -12,7 +12,7 @@ public class FabricMain implements ModInitializer {
         // project.
 
         // Use Fabric to bootstrap the Common mod.
-        Constants.LOG.info("Hello Fabric world!");
-        CommonClass.init();
+        Main.LOG.info("Hello Fabric world!");
+        Main.init();
     }
 }

@@ -1,19 +1,16 @@
 package net.pouch.main;
 
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.pouch.Items.ForgeItems;
+import net.pouch.Items.ForgeTab;
 
-@Mod(Constants.MOD_ID)
+@Mod(Main.MOD_ID)
 public class ForgeMain {
 
-    public ForgeMain() {
-
-        // This method is invoked by the Forge mod loader when it is ready
-        // to load your mod. You can access Forge and Common code in this
-        // project.
-
-        // Use Forge to bootstrap the Common mod.
-        Constants.LOG.info("Hello Forge world!");
-        CommonClass.init();
-
+    public ForgeMain(IEventBus eventBus) {
+        ForgeItems.register(eventBus);
+        ForgeTab.register(eventBus);
+        Main.init();
     }
 }

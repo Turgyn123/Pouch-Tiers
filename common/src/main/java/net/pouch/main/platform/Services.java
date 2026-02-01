@@ -1,6 +1,6 @@
 package net.pouch.main.platform;
 
-import net.pouch.main.Constants;
+import net.pouch.main.Main;
 import net.pouch.main.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
@@ -24,7 +24,7 @@ public class Services {
         final T loadedService = ServiceLoader.load(clazz)
                 .findFirst()
                 .orElseThrow(() -> new NullPointerException("Failed to load service for " + clazz.getName()));
-        Constants.LOG.debug("Loaded {} for service {}", loadedService, clazz);
+        Main.LOG.debug("Loaded {} for service {}", loadedService, clazz);
         return loadedService;
     }
 }
