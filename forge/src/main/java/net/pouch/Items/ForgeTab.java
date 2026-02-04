@@ -16,6 +16,11 @@ public class ForgeTab {
 
     private static final CreativeModeTab.DisplayItemsGenerator MAIN_TAB_ITEMS = (params, output) -> {
         output.accept(ForgeItems.COPPER_POUCH.get());
+        output.accept(ForgeItems.IRON_POUCH.get());
+        output.accept(ForgeItems.GOLD_POUCH.get());
+        output.accept(ForgeItems.DIAMOND_POUCH.get());
+        output.accept(ForgeItems.NETHERITE_POUCH.get());
+        output.accept(ForgeItems.EMERALD_POUCH.get());
     };
 
     public static final Supplier<CreativeModeTab> POUCH_TIERS = TABS.register("pouch_tiers",

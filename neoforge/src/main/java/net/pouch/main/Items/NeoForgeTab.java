@@ -19,6 +19,11 @@ public class NeoForgeTab {
             .icon(() -> NeoForgeItems.COPPER_POUCH.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(NeoForgeItems.COPPER_POUCH.get());
+                output.accept(NeoForgeItems.IRON_POUCH.get());
+                output.accept(NeoForgeItems.GOLD_POUCH.get());
+                output.accept(NeoForgeItems.DIAMOND_POUCH.get());
+                output.accept(NeoForgeItems.NETHERITE_POUCH.get());
+                output.accept(NeoForgeItems.EMERALD_POUCH.get());
             }).build());
 
     public static void register(IEventBus eventBus) {

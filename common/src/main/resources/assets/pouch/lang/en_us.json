@@ -1,4 +1,9 @@
 {
-  "itemGroup.pouch.pouch_tiers": "Pouch Tiers+",
-  "item.pouch.copper_pouch": "Copper Pouch"
+  "itemGroup.pouch.pouch_tiers": "Bundle Tiers+",
+  "item.pouch.copper_pouch": "Copper Bundle",
+  "item.pouch.iron_pouch": "Iron Bundle",
+  "item.pouch.gold_pouch": "Gold Bundle",
+  "item.pouch.diamond_pouch": "Diamond Bundle",
+  "item.pouch.netherite_pouch": "Netherite Bundle",
+  "item.pouch.emerald_pouch": "Emerald Bundle"
 }

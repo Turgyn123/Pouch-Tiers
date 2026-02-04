@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "pouch:item/copper_pouch"
+    "layer0": "pouch:item/copper/copper_pouch"
   }
 }
