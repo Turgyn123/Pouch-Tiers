@@ -18,6 +18,7 @@ public class NeoForgeTab {
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> NeoForgeItems.COPPER_POUCH.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
+                output.accept(NeoForgeItems.POUCH.get());
                 output.accept(NeoForgeItems.COPPER_POUCH.get());
                 output.accept(NeoForgeItems.IRON_POUCH.get());
                 output.accept(NeoForgeItems.GOLD_POUCH.get());

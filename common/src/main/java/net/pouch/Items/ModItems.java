@@ -3,6 +3,7 @@ package net.pouch.Items;
 
 public class ModItems {
 
+    public static final String POUCH = "pouch";
     public static final String COPPER_POUCH = "copper_pouch";
     public static final String IRON_POUCH = "iron_pouch";
     public static final String GOLD_POUCH = "gold_pouch";

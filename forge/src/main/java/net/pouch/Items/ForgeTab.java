@@ -15,6 +15,7 @@ public class ForgeTab {
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Main.MOD_ID);
 
     private static final CreativeModeTab.DisplayItemsGenerator MAIN_TAB_ITEMS = (params, output) -> {
+        output.accept(ForgeItems.POUCH.get());
         output.accept(ForgeItems.COPPER_POUCH.get());
         output.accept(ForgeItems.IRON_POUCH.get());
         output.accept(ForgeItems.GOLD_POUCH.get());

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "pattern": [
+    "#  ",
+    "@  ",
+    "   "
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:string"
+    },
+    "#": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "id": "pouch:pouch",
+    "count": 1
+  }
+}

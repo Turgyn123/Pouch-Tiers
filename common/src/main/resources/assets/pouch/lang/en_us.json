@@ -1,5 +1,7 @@
 {
   "itemGroup.pouch.pouch_tiers": "Bundle Tiers+",
+
+    "item.pouch.pouch": "Bundle",
   "item.pouch.copper_pouch": "Copper Bundle",
   "item.pouch.iron_pouch": "Iron Bundle",
   "item.pouch.gold_pouch": "Gold Bundle",

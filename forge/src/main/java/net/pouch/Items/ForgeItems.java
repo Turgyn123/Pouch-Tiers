@@ -12,6 +12,7 @@ public class ForgeItems {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Main.MOD_ID);
 
+    public static final RegistryObject<Item> POUCH = ITEMS.register(ModItems.POUCH, () -> new Pouch(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> COPPER_POUCH = ITEMS.register(ModItems.COPPER_POUCH, () -> new CopperPouch(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> IRON_POUCH = ITEMS.register(ModItems.IRON_POUCH, () -> new IronPouch(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> GOLD_POUCH = ITEMS.register(ModItems.GOLD_POUCH, () -> new GoldPouch(new Item.Properties().stacksTo(1)));
