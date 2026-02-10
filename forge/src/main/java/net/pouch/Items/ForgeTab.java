@@ -16,6 +16,22 @@ public class ForgeTab {
 
     private static final CreativeModeTab.DisplayItemsGenerator MAIN_TAB_ITEMS = (params, output) -> {
         output.accept(ForgeItems.POUCH.get());
+        output.accept(ForgeItems.WHITE_POUCH.get());
+        output.accept(ForgeItems.LIGHT_GRAY_POUCH.get());
+        output.accept(ForgeItems.GRAY_POUCH.get());
+        output.accept(ForgeItems.BLACK_POUCH.get());
+        output.accept(ForgeItems.BROWN_POUCH.get());
+        output.accept(ForgeItems.RED_POUCH.get());
+        output.accept(ForgeItems.ORANGE_POUCH.get());
+        output.accept(ForgeItems.YELLOW_POUCH.get());
+        output.accept(ForgeItems.LIME_POUCH.get());
+        output.accept(ForgeItems.GREEN_POUCH.get());
+        output.accept(ForgeItems.CYAN_POUCH.get());
+        output.accept(ForgeItems.LIGHT_BLUE_POUCH.get());
+        output.accept(ForgeItems.BLUE_POUCH.get());
+        output.accept(ForgeItems.PURPLE_POUCH.get());
+        output.accept(ForgeItems.MAGENTA_POUCH.get());
+        output.accept(ForgeItems.PINK_POUCH.get());
         output.accept(ForgeItems.COPPER_POUCH.get());
         output.accept(ForgeItems.IRON_POUCH.get());
         output.accept(ForgeItems.GOLD_POUCH.get());

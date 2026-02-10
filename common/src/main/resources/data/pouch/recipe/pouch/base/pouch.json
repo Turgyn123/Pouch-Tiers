@@ -1,19 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "equipment",
-  "pattern": [
-    "#  ",
-    "@  ",
-    "   "
-  ],
-  "key": {
-    "@": {
-      "item": "minecraft:string"
-    },
-    "#": {
+  "ingredients": [
+    {
       "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:string"
     }
-  },
+  ],
   "result": {
     "id": "pouch:pouch",
     "count": 1

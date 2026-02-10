@@ -6,6 +6,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import net.pouch.Items.PouchTiers.*;
+import net.pouch.Items.PouchTiers.pouch.Pouch;
 import net.pouch.main.Main;
 
 public class NeoForgeItems {

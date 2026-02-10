@@ -1,4 +1,4 @@
-package net.pouch.Items.PouchTiers;
+package net.pouch.Items.PouchTiers.pouch;
 
 import net.minecraft.world.item.Item;
 
