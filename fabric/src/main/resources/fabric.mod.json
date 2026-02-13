@@ -17,6 +17,9 @@
     "entrypoints": {
         "main": [
             "net.pouch.main.FabricMain"
+        ],
+        "client": [
+            "net.pouch.main.FabricClientInit"
         ]
     },
     "mixins": [

@@ -1,12 +1,11 @@
 package net.pouch.Items.PouchTiers;
 
-import net.minecraft.world.item.Item;
-
-public class CopperPouch extends Item{
+/**
+ * Copper pouch - 2 slots.
+ */
+public class CopperPouch extends TieredPouchItem {
 
     public CopperPouch(Properties properties) {
-        super(properties);
+        super(properties, 2);
     }
-
-
 }

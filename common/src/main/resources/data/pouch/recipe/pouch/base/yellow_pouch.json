@@ -10,7 +10,7 @@
     }
   ],
   "result": {
-    "item": "pouch:yellow_pouch",
+    "id": "pouch:yellow_pouch",
     "count": 1
   }
 }
