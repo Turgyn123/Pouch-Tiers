@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pouch:item/netherite/light_blue_netherite_pouch"
+  }
+}

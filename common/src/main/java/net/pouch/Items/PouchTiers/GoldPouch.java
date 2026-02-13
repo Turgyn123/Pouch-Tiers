@@ -1,8 +1,11 @@
 package net.pouch.Items.PouchTiers;
 
-import net.minecraft.world.item.Item;
+/**
+ * Gold pouch - 8 slots.
+ */
+public class GoldPouch extends TieredPouchItem {
 
-public class GoldPouch extends Item {
-
-    public GoldPouch(Properties properties) {super(properties);}
+    public GoldPouch(Properties properties) {
+        super(properties, 8);
+    }
 }

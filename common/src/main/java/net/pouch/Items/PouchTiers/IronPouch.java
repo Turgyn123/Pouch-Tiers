@@ -1,8 +1,11 @@
 package net.pouch.Items.PouchTiers;
 
-import net.minecraft.world.item.Item;
+/**
+ * Iron pouch - 4 slots.
+ */
+public class IronPouch extends TieredPouchItem {
 
-public class IronPouch extends Item {
-
-    public IronPouch(Properties properties) {super(properties);}
+    public IronPouch(Properties properties) {
+        super(properties, 4);
+    }
 }

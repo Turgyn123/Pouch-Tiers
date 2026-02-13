@@ -1,8 +1,12 @@
 package net.pouch.Items.PouchTiers;
 
-import net.minecraft.world.item.Item;
+/**
+ * Emerald pouch - 64 slots (full stack equivalent).
+ * Obtained via trade from max-level Leatherworker (32 emeralds + Diamond Pouch).
+ */
+public class EmeraldPouch extends TieredPouchItem {
 
-public class EmeraldPouch extends Item {
-
-    public EmeraldPouch(Properties properties) {super(properties);}
+    public EmeraldPouch(Properties properties) {
+        super(properties, 63);
+    }
 }

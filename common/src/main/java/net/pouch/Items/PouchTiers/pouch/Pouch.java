@@ -1,8 +1,14 @@
 package net.pouch.Items.PouchTiers.pouch;
 
-import net.minecraft.world.item.Item;
+import net.pouch.Items.PouchTiers.TieredPouchItem;
 
-public class Pouch extends Item {
+/**
+ * Base pouch - 1 slot (standard vanilla bundle capacity = 1/64).
+ * This is the starter tier crafted from leather + string.
+ */
+public class Pouch extends TieredPouchItem {
 
-    public Pouch(Properties properties) {super(properties);}
+    public Pouch(Properties properties) {
+        super(properties, 1);
+    }
 }

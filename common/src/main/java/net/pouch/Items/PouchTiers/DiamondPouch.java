@@ -1,8 +1,11 @@
 package net.pouch.Items.PouchTiers;
 
-import net.minecraft.world.item.Item;
+/**
+ * Diamond pouch - 16 slots.
+ */
+public class DiamondPouch extends TieredPouchItem {
 
-public class DiamondPouch extends Item {
-
-    public DiamondPouch(Properties properties) {super(properties);}
+    public DiamondPouch(Properties properties) {
+        super(properties, 16);
+    }
 }

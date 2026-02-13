@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pouch:item/gold/cyan_gold_pouch"
+  }
+}

@@ -13,6 +13,7 @@ public class ForgeMain {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ForgeItems.register(eventBus);
         ForgeTab.register(eventBus);
+        ForgeMenus.register(eventBus);
         Main.init();
     }
 }

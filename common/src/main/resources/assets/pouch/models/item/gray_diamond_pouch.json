@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pouch:item/diamond/gray_diamond_pouch"
+  }
+}

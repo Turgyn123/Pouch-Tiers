@@ -12,6 +12,7 @@ public class NeoForgeMain {
     public NeoForgeMain(IEventBus eventBus) {
         NeoForgeItems.register(eventBus);
         NeoForgeTab.register(eventBus);
+        NeoForgeMenus.register(eventBus);
         Main.init();
 
     }

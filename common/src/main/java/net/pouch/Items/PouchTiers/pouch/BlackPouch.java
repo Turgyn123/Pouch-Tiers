@@ -1,8 +1,8 @@
 package net.pouch.Items.PouchTiers.pouch;
 
-import net.minecraft.world.item.Item;
+import net.pouch.Items.PouchTiers.TieredPouchItem;
 
-public class BlackPouch extends Item {
+public class BlackPouch extends TieredPouchItem {
 
-    public BlackPouch(Properties properties) {super(properties);}
+    public BlackPouch(Properties properties) {super(properties, 1);}
 }
