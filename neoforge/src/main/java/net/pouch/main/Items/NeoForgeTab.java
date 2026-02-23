@@ -35,14 +35,9 @@ public class NeoForgeTab {
                 output.accept(NeoForgeItems.PURPLE_POUCH.get());
                 output.accept(NeoForgeItems.MAGENTA_POUCH.get());
                 output.accept(NeoForgeItems.PINK_POUCH.get());
-                output.accept(NeoForgeItems.COPPER_POUCH.get());
-                output.accept(NeoForgeItems.IRON_POUCH.get());
-                output.accept(NeoForgeItems.GOLD_POUCH.get());
-                output.accept(NeoForgeItems.DIAMOND_POUCH.get());
-                output.accept(NeoForgeItems.NETHERITE_POUCH.get());
-                output.accept(NeoForgeItems.EMERALD_POUCH.get());
 
                 // Copper Colored Pouches
+                output.accept(NeoForgeItems.COPPER_POUCH.get());
                 output.accept(NeoForgeItems.BLACK_COPPER_POUCH.get());
                 output.accept(NeoForgeItems.BLUE_COPPER_POUCH.get());
                 output.accept(NeoForgeItems.BROWN_COPPER_POUCH.get());
@@ -61,6 +56,7 @@ public class NeoForgeTab {
                 output.accept(NeoForgeItems.YELLOW_COPPER_POUCH.get());
 
                 // Iron Colored Pouches
+                output.accept(NeoForgeItems.IRON_POUCH.get());
                 output.accept(NeoForgeItems.BLACK_IRON_POUCH.get());
                 output.accept(NeoForgeItems.BLUE_IRON_POUCH.get());
                 output.accept(NeoForgeItems.BROWN_IRON_POUCH.get());
@@ -79,6 +75,7 @@ public class NeoForgeTab {
                 output.accept(NeoForgeItems.YELLOW_IRON_POUCH.get());
 
                 // Gold Colored Pouches
+                output.accept(NeoForgeItems.GOLD_POUCH.get());
                 output.accept(NeoForgeItems.BLACK_GOLD_POUCH.get());
                 output.accept(NeoForgeItems.BLUE_GOLD_POUCH.get());
                 output.accept(NeoForgeItems.BROWN_GOLD_POUCH.get());
@@ -97,6 +94,7 @@ public class NeoForgeTab {
                 output.accept(NeoForgeItems.YELLOW_GOLD_POUCH.get());
 
                 // Diamond Colored Pouches
+                output.accept(NeoForgeItems.DIAMOND_POUCH.get());
                 output.accept(NeoForgeItems.BLACK_DIAMOND_POUCH.get());
                 output.accept(NeoForgeItems.BLUE_DIAMOND_POUCH.get());
                 output.accept(NeoForgeItems.BROWN_DIAMOND_POUCH.get());
@@ -115,6 +113,7 @@ public class NeoForgeTab {
                 output.accept(NeoForgeItems.YELLOW_DIAMOND_POUCH.get());
 
                 // Netherite Colored Pouches
+                output.accept(NeoForgeItems.NETHERITE_POUCH.get());
                 output.accept(NeoForgeItems.BLACK_NETHERITE_POUCH.get());
                 output.accept(NeoForgeItems.BLUE_NETHERITE_POUCH.get());
                 output.accept(NeoForgeItems.BROWN_NETHERITE_POUCH.get());
@@ -133,6 +132,7 @@ public class NeoForgeTab {
                 output.accept(NeoForgeItems.YELLOW_NETHERITE_POUCH.get());
 
                 // Emerald Colored Pouches
+                output.accept(NeoForgeItems.EMERALD_POUCH.get());
                 output.accept(NeoForgeItems.BLACK_EMERALD_POUCH.get());
                 output.accept(NeoForgeItems.BLUE_EMERALD_POUCH.get());
                 output.accept(NeoForgeItems.BROWN_EMERALD_POUCH.get());

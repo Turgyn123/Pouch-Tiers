@@ -32,14 +32,9 @@ public class ForgeTab {
         output.accept(ForgeItems.PURPLE_POUCH.get());
         output.accept(ForgeItems.MAGENTA_POUCH.get());
         output.accept(ForgeItems.PINK_POUCH.get());
-        output.accept(ForgeItems.COPPER_POUCH.get());
-        output.accept(ForgeItems.IRON_POUCH.get());
-        output.accept(ForgeItems.GOLD_POUCH.get());
-        output.accept(ForgeItems.DIAMOND_POUCH.get());
-        output.accept(ForgeItems.NETHERITE_POUCH.get());
-        output.accept(ForgeItems.EMERALD_POUCH.get());
 
         // Copper Colored Pouches
+        output.accept(ForgeItems.COPPER_POUCH.get());
         output.accept(ForgeItems.BLACK_COPPER_POUCH.get());
         output.accept(ForgeItems.BLUE_COPPER_POUCH.get());
         output.accept(ForgeItems.BROWN_COPPER_POUCH.get());
@@ -58,6 +53,7 @@ public class ForgeTab {
         output.accept(ForgeItems.YELLOW_COPPER_POUCH.get());
 
         // Iron Colored Pouches
+        output.accept(ForgeItems.IRON_POUCH.get());
         output.accept(ForgeItems.BLACK_IRON_POUCH.get());
         output.accept(ForgeItems.BLUE_IRON_POUCH.get());
         output.accept(ForgeItems.BROWN_IRON_POUCH.get());
@@ -76,6 +72,7 @@ public class ForgeTab {
         output.accept(ForgeItems.YELLOW_IRON_POUCH.get());
 
         // Gold Colored Pouches
+        output.accept(ForgeItems.GOLD_POUCH.get());
         output.accept(ForgeItems.BLACK_GOLD_POUCH.get());
         output.accept(ForgeItems.BLUE_GOLD_POUCH.get());
         output.accept(ForgeItems.BROWN_GOLD_POUCH.get());
@@ -94,6 +91,7 @@ public class ForgeTab {
         output.accept(ForgeItems.YELLOW_GOLD_POUCH.get());
 
         // Diamond Colored Pouches
+        output.accept(ForgeItems.DIAMOND_POUCH.get());
         output.accept(ForgeItems.BLACK_DIAMOND_POUCH.get());
         output.accept(ForgeItems.BLUE_DIAMOND_POUCH.get());
         output.accept(ForgeItems.BROWN_DIAMOND_POUCH.get());
@@ -112,6 +110,7 @@ public class ForgeTab {
         output.accept(ForgeItems.YELLOW_DIAMOND_POUCH.get());
 
         // Netherite Colored Pouches
+        output.accept(ForgeItems.NETHERITE_POUCH.get());
         output.accept(ForgeItems.BLACK_NETHERITE_POUCH.get());
         output.accept(ForgeItems.BLUE_NETHERITE_POUCH.get());
         output.accept(ForgeItems.BROWN_NETHERITE_POUCH.get());
@@ -130,6 +129,7 @@ public class ForgeTab {
         output.accept(ForgeItems.YELLOW_NETHERITE_POUCH.get());
 
         // Emerald Colored Pouches
+        output.accept(ForgeItems.EMERALD_POUCH.get());
         output.accept(ForgeItems.BLACK_EMERALD_POUCH.get());
         output.accept(ForgeItems.BLUE_EMERALD_POUCH.get());
         output.accept(ForgeItems.BROWN_EMERALD_POUCH.get());

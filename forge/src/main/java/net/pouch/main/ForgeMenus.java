@@ -19,6 +19,7 @@ public class ForgeMenus {
     public static void register(IEventBus bus) {
         MENUS.register(bus);
         bus.addListener((FMLCommonSetupEvent event) -> {
+            ModMenuTypes.setPouchMenu(POUCH_MENU.get());
             ModMenuTypes.POUCH_MENU = POUCH_MENU.get();
         });
     }

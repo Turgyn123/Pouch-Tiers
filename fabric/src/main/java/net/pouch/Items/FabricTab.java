@@ -36,11 +36,6 @@ public class FabricTab {
                         output.accept(FabricItems.MAGENTA_POUCH);
                         output.accept(FabricItems.PINK_POUCH);
                         output.accept(FabricItems.COPPER_POUCH);
-                        output.accept(FabricItems.IRON_POUCH);
-                        output.accept(FabricItems.GOLD_POUCH);
-                        output.accept(FabricItems.DIAMOND_POUCH);
-                        output.accept(FabricItems.NETHERITE_POUCH);
-                        output.accept(FabricItems.EMERALD_POUCH);
                         output.accept(FabricItems.BLACK_COPPER_POUCH);
                         output.accept(FabricItems.BLUE_COPPER_POUCH);
                         output.accept(FabricItems.BROWN_COPPER_POUCH);
@@ -57,6 +52,7 @@ public class FabricTab {
                         output.accept(FabricItems.RED_COPPER_POUCH);
                         output.accept(FabricItems.WHITE_COPPER_POUCH);
                         output.accept(FabricItems.YELLOW_COPPER_POUCH);
+                        output.accept(FabricItems.IRON_POUCH);
                         output.accept(FabricItems.BLACK_IRON_POUCH);
                         output.accept(FabricItems.BLUE_IRON_POUCH);
                         output.accept(FabricItems.BROWN_IRON_POUCH);
@@ -73,6 +69,7 @@ public class FabricTab {
                         output.accept(FabricItems.RED_IRON_POUCH);
                         output.accept(FabricItems.WHITE_IRON_POUCH);
                         output.accept(FabricItems.YELLOW_IRON_POUCH);
+                        output.accept(FabricItems.GOLD_POUCH);
                         output.accept(FabricItems.BLACK_GOLD_POUCH);
                         output.accept(FabricItems.BLUE_GOLD_POUCH);
                         output.accept(FabricItems.BROWN_GOLD_POUCH);
@@ -89,6 +86,7 @@ public class FabricTab {
                         output.accept(FabricItems.RED_GOLD_POUCH);
                         output.accept(FabricItems.WHITE_GOLD_POUCH);
                         output.accept(FabricItems.YELLOW_GOLD_POUCH);
+                        output.accept(FabricItems.DIAMOND_POUCH);
                         output.accept(FabricItems.BLACK_DIAMOND_POUCH);
                         output.accept(FabricItems.BLUE_DIAMOND_POUCH);
                         output.accept(FabricItems.BROWN_DIAMOND_POUCH);
@@ -105,6 +103,7 @@ public class FabricTab {
                         output.accept(FabricItems.RED_DIAMOND_POUCH);
                         output.accept(FabricItems.WHITE_DIAMOND_POUCH);
                         output.accept(FabricItems.YELLOW_DIAMOND_POUCH);
+                        output.accept(FabricItems.NETHERITE_POUCH);
                         output.accept(FabricItems.BLACK_NETHERITE_POUCH);
                         output.accept(FabricItems.BLUE_NETHERITE_POUCH);
                         output.accept(FabricItems.BROWN_NETHERITE_POUCH);
@@ -121,6 +120,7 @@ public class FabricTab {
                         output.accept(FabricItems.RED_NETHERITE_POUCH);
                         output.accept(FabricItems.WHITE_NETHERITE_POUCH);
                         output.accept(FabricItems.YELLOW_NETHERITE_POUCH);
+                        output.accept(FabricItems.EMERALD_POUCH);
                         output.accept(FabricItems.BLACK_EMERALD_POUCH);
                         output.accept(FabricItems.BLUE_EMERALD_POUCH);
                         output.accept(FabricItems.BROWN_EMERALD_POUCH);
