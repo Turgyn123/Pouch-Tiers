@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "pouch:item/emerald/purple_emerald_pouch"
-  }
-}

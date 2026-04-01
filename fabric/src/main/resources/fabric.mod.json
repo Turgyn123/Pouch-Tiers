@@ -16,15 +16,15 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "net.pouch.main.FabricMain"
+            "net.bundle.main.FabricMain"
         ],
         "client": [
-            "net.pouch.main.FabricClientInit"
+            "net.bundle.main.FabricClientInit"
         ]
     },
     "mixins": [
-        "pouch.mixins.json",
-        "pouch.fabric.mixins.json"
+        "bundle.mixins.json",
+        "bundle.fabric.mixins.json"
     ],
     "depends": {
         "fabricloader": ">=${fabric_loader_version}",
