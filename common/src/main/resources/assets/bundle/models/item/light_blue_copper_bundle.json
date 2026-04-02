@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bundle:item/copper/light_blue_copper_bundle"
+  }
+}

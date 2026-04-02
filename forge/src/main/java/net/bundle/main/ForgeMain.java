@@ -1,0 +1,19 @@
+package net.bundle.main;
+
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.bundle.Items.ForgeItems;
+import net.bundle.Items.ForgeTab;
+
+@Mod(Main.MOD_ID)
+public class ForgeMain {
+
+    public ForgeMain() {
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ForgeItems.register(eventBus);
+        ForgeTab.register(eventBus);
+        ForgeMenus.register(eventBus);
+        Main.init();
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "@": {
+      "item": "bundle:diamond_bundle"
+    },
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "bundle:netherite_bundle",
+    "count": 1
+  }
+}

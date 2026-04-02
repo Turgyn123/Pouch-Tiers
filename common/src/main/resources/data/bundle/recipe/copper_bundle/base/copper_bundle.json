@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "@": {
+      "item": "bundle:bundle"
+    },
+    "#": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "id": "bundle:copper_bundle",
+    "count": 1
+  }
+}

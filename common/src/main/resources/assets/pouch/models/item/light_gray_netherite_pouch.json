@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "pouch:item/netherite/light_gray_netherite_pouch"
-  }
-}
